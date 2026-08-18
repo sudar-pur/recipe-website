@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deep Roots | Protein-Forward Vegetarian Recipes</title>
+  <meta name="description" content="High-protein vegetarian recipes with an Indian twist. Real food, real protein, no meat.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">DR</div>
+        <span class="nav-logo-text">Deep Roots</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Recipes</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Deep Roots</h1>
+    <p class="tagline">Protein-forward vegetarian recipes for people who take both their food and their fitness seriously.</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-number" id="recipe-count">20</span>
+        <span class="hero-stat-label">Recipes</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-number" id="avg-protein">23g</span>
+        <span class="hero-stat-label">Avg Protein</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-number">0g</span>
+        <span class="hero-stat-label">Meat</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recipes Section -->
+  <section class="section">
+    <div class="section-header">
+      <h2>Recipes</h2>
+      <p>Every recipe is designed to maximize protein without sacrificing flavor.</p>
+    </div>
+
+    <div class="category-filters" id="category-filters"></div>
+    <div class="cuisine-filters" id="cuisine-filters"></div>
+    <div class="protein-filters" id="protein-filters"></div>
+    <div class="recipes-grid" id="recipes-grid"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Deep Roots</div>
+      <p class="footer-tagline">Protein-Forward Vegetarian Cooking</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Recipes</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2025 Deep Roots. Built with love, lentils, and a lot of protein.</p>
+    </div>
+  </footer>
+
+  <script src="js/recipes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Recipes | Deep Roots</title>
+  <meta name="description" content="Search high-protein vegetarian recipes by title or ingredient.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">DR</div>
+        <span class="nav-logo-text">Deep Roots</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Recipes</a></li>
+        <li><a href="search.html" class="active">Search</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Search Content -->
+  <div class="search-page">
+    <div class="section-header">
+      <h2>Search Recipes</h2>
+      <p>Find recipes by name or ingredient.</p>
+    </div>
+
+    <div class="search-input-wrap">
+      <input type="text" id="search-input" class="search-input" placeholder="Search by recipe name or ingredient..." autofocus>
+    </div>
+
+    <div class="search-meta" id="search-meta"></div>
+
+    <p class="search-empty" id="search-empty">Type a recipe name or ingredient (e.g. "broccoli", "paneer tikka") to find recipes.</p>
+
+    <div class="recipes-grid" id="search-results"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Deep Roots</div>
+      <p class="footer-tagline">Protein-Forward Vegetarian Cooking</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Recipes</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2025 Deep Roots. Built with love, lentils, and a lot of protein.</p>
+    </div>
+  </footer>
+
+  <script src="js/recipes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
