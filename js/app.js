@@ -244,6 +244,99 @@ function renderRecipeGrid(container, recipeList) {
   `).join('');
 }
 
+// ============ SEO: DYNAMIC META & JSON-LD ============
+
+function injectRecipeSEO(recipe) {
+  const url = 'https://deeprootscooking.com/recipe.html?r=' + recipe.slug;
+  const imageUrl = recipe.image ? 'https://deeprootscooking.com/' + recipe.image : '';
+
+  // Update meta description
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) metaDesc.setAttribute('content', recipe.description);
+
+  // Canonical URL
+  const canonical = document.createElement('link');
+  canonical.rel = 'canonical';
+  canonical.href = url;
+  document.head.appendChild(canonical);
+
+  // Open Graph tags
+  const ogTags = {
+    'og:title': recipe.title + ' | Deep Roots',
+    'og:description': recipe.description,
+    'og:url': url,
+    'og:image': imageUrl
+  };
+  for (const [prop, content] of Object.entries(ogTags)) {
+    const existing = document.querySelector('meta[property="' + prop + '"]');
+    if (existing) {
+      existing.setAttribute('content', content);
+    } else {
+      const tag = document.createElement('meta');
+      tag.setAttribute('property', prop);
+      tag.setAttribute('content', content);
+      document.head.appendChild(tag);
+    }
+  }
+
+  // Twitter tags
+  const twitterTags = {
+    'twitter:title': recipe.title + ' | Deep Roots',
+    'twitter:description': recipe.description,
+    'twitter:image': imageUrl
+  };
+  for (const [name, content] of Object.entries(twitterTags)) {
+    const tag = document.createElement('meta');
+    tag.setAttribute('name', name);
+    tag.setAttribute('content', content);
+    document.head.appendChild(tag);
+  }
+
+  // JSON-LD Recipe structured data (Schema.org)
+  const totalTime = recipe.prepTime + recipe.cookTime;
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Recipe',
+    'name': recipe.title,
+    'description': recipe.description,
+    'image': imageUrl ? [imageUrl] : [],
+    'author': { '@type': 'Organization', 'name': 'Deep Roots' },
+    'datePublished': '2025-01-01',
+    'prepTime': 'PT' + recipe.prepTime + 'M',
+    'cookTime': 'PT' + recipe.cookTime + 'M',
+    'totalTime': 'PT' + totalTime + 'M',
+    'recipeYield': recipe.servings + ' servings',
+    'recipeCategory': capitalize(recipe.category),
+    'recipeCuisine': recipe.cuisine,
+    'keywords': recipe.tags ? recipe.tags.join(', ') : '',
+    'nutrition': {
+      '@type': 'NutritionInformation',
+      'calories': recipe.caloriesPerServing + ' calories',
+      'proteinContent': recipe.proteinPerServing + 'g',
+      'fatContent': (recipe.fatPerServing || 0) + 'g',
+      'carbohydrateContent': (recipe.carbsPerServing || 0) + 'g',
+      'fiberContent': (recipe.fiberPerServing || 0) + 'g'
+    },
+    'recipeIngredient': recipe.ingredients.map(function(ing) {
+      var parts = [];
+      if (ing.amount) parts.push(ing.amount);
+      if (ing.unit) parts.push(ing.unit);
+      parts.push(ing.item);
+      if (ing.note) parts.push('(' + ing.note + ')');
+      return parts.join(' ');
+    }),
+    'recipeInstructions': recipe.instructions.map(function(step, i) {
+      return { '@type': 'HowToStep', 'position': i + 1, 'text': step };
+    }),
+    'suitableForDiet': 'https://schema.org/VegetarianDiet'
+  };
+
+  var script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.textContent = JSON.stringify(jsonLd);
+  document.head.appendChild(script);
+}
+
 // ============ RECIPE PAGE ============
 
 function initRecipePage() {
@@ -265,6 +358,9 @@ function initRecipePage() {
   }
 
   document.title = `${recipe.title} | Deep Roots`;
+
+  // Inject dynamic SEO meta tags
+  injectRecipeSEO(recipe);
 
   container.innerHTML = `
     ${recipe.image ? `

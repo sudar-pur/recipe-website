@@ -1548,6 +1548,10 @@ a.pairing-card:hover .pairing-card-image img {
   max-width: var(--max-width-content);
   margin: 0 auto;
   padding: 100px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -1557,6 +1561,8 @@ a.pairing-card:hover .pairing-card-image img {
   line-height: 1;
   margin-bottom: 16px;
   opacity: 0.15;
+  text-align: center;
+  width: 100%;
 }
 
 .four-oh-four-subtitle {
@@ -1565,6 +1571,7 @@ a.pairing-card:hover .pairing-card-image img {
   font-weight: 700;
   color: var(--color-text);
   margin-bottom: 12px;
+  text-align: center;
 }
 
 .four-oh-four-text {
@@ -1573,6 +1580,7 @@ a.pairing-card:hover .pairing-card-image img {
   max-width: 440px;
   margin: 0 auto 32px;
   line-height: 1.7;
+  text-align: center;
 }
 
 .four-oh-four-actions {
@@ -1669,4 +1677,17 @@ a.pairing-card:hover .pairing-card-image img {
   .instructions-list li {
     page-break-inside: avoid;
   }
+
+  .ad-container {
+    display: none;
+  }
+}
+
+/* ============ AD CONTAINERS ============ */
+
+.ad-container {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 0 24px;
+  text-align: center;
 }
