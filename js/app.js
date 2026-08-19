@@ -224,7 +224,7 @@ function renderRecipeGrid(container, recipeList) {
     <a href="recipe.html?r=${recipe.slug}" class="recipe-card">
       <div class="recipe-card-image ${recipe.image ? '' : 'card-bg-' + recipe.category}">
         ${recipe.image
-          ? `<img src="${recipe.image}" alt="${recipe.title}" loading="lazy">`
+          ? `<img src="${recipe.image}" alt="${recipe.title} - high protein vegetarian ${recipe.category} recipe" loading="lazy">`
           : `<span class="card-icon">${getCategoryIcon(recipe.category)}</span>`
         }
         <span class="recipe-card-category cat-${recipe.category}">${recipe.category}</span>
@@ -365,7 +365,7 @@ function initRecipePage() {
   container.innerHTML = `
     ${recipe.image ? `
     <div class="recipe-hero-image">
-      <img src="${recipe.image.replace('w=600&h=400', 'w=1200&h=500')}" alt="${recipe.title}">
+      <img src="${recipe.image.replace('w=600&h=400', 'w=1200&h=500')}" alt="${recipe.title} - ${recipe.proteinPerServing}g protein vegetarian ${recipe.cuisine} ${recipe.category}">
     </div>
     ` : ''}
 
@@ -509,7 +509,7 @@ function initRecipePage() {
               ? `<a href="recipe.html?r=${p.slug}" class="pairing-card">
                   <div class="pairing-card-image ${img ? '' : 'card-bg-side'}">
                     ${img
-                      ? `<img src="${img}" alt="${p.item}" loading="lazy">`
+                      ? `<img src="${img}" alt="${p.item} - high protein vegetarian pairing for ${recipe.title}" loading="lazy">`
                       : `<span class="card-icon">${getCategoryIcon('side')}</span>`
                     }
                   </div>

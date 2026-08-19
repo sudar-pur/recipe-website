@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Deep Roots - High Protein Vegetarian Tips & Guides</title>
+  <meta name="description" content="Tips, guides, and meal plans for high-protein vegetarian eating. Written by a vegetarian who lifts.">
+  <link rel="canonical" href="https://deeprootscooking.com/blog.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Blog | Deep Roots">
+  <meta property="og:description" content="Tips, guides, and meal plans for high-protein vegetarian eating. Written by a vegetarian who lifts.">
+  <meta property="og:url" content="https://deeprootscooking.com/blog.html">
+  <meta property="og:site_name" content="Deep Roots">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Blog | Deep Roots">
+  <meta name="twitter:description" content="Tips, guides, and meal plans for high-protein vegetarian eating. Written by a vegetarian who lifts.">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2711708712180550" crossorigin="anonymous"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLXBNDGJ94"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-VLXBNDGJ94');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">DR</div>
+        <span class="nav-logo-text">Deep Roots</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Recipes</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Blog Listing -->
+  <div class="blog-page">
+    <div class="section-header">
+      <h1>Blog</h1>
+      <p>Tips, guides, and real talk about high-protein vegetarian eating.</p>
+    </div>
+
+    <div class="blog-list" id="blog-list">
+      <p style="text-align:center; padding: 40px 0; color: #999;">Loading posts...</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Deep Roots</div>
+      <p class="footer-tagline">Protein-Forward Vegetarian Cooking</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Recipes</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2025 Deep Roots. Built with love, lentils, and a lot of protein.</p>
+    </div>
+  </footer>
+
+  <script src="js/blog-posts.js"></script>
+  <script>
+    // Render blog listing
+    document.addEventListener('DOMContentLoaded', function() {
+      // Mobile nav toggle
+      var toggle = document.querySelector('.nav-toggle');
+      var links = document.querySelector('.nav-links');
+      if (toggle && links) {
+        toggle.addEventListener('click', function() {
+          links.classList.toggle('open');
+        });
+      }
+
+      var container = document.getElementById('blog-list');
+      if (!container || typeof blogPosts === 'undefined') return;
+
+      // Sort posts by date descending
+      var sorted = blogPosts.slice().sort(function(a, b) {
+        return new Date(b.date) - new Date(a.date);
+      });
+
+      container.innerHTML = sorted.map(function(post) {
+        var d = new Date(post.date + 'T00:00:00');
+        var dateStr = d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        return '<a href="blog-post.html?p=' + post.slug + '" class="blog-card">' +
+          '<div class="blog-card-body">' +
+            '<span class="blog-card-date">' + dateStr + '</span>' +
+            '<h2 class="blog-card-title">' + post.title + '</h2>' +
+            '<p class="blog-card-excerpt">' + post.excerpt + '</p>' +
+            '<div class="blog-card-tags">' +
+              post.tags.slice(0, 3).map(function(tag) {
+                return '<span class="recipe-tag">#' + tag + '</span>';
+              }).join('') +
+            '</div>' +
+          '</div>' +
+        '</a>';
+      }).join('');
+    });
+  </script>
+</body>
+</html>
