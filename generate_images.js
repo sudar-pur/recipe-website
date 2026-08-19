@@ -85,6 +85,11 @@ const RECIPES = [
   { slug: 'mexican-rice-and-beans', prompt: 'Overhead food photography of Mexican rice and black beans, fluffy orange-tinted rice mixed with black beans, garnished with cilantro and lime wedge, served in a bowl, warm lighting' },
   { slug: 'miso-soup-with-tofu', prompt: 'Overhead food photography of miso soup with soft tofu cubes, wakame seaweed, and sliced scallions, in a traditional Japanese bowl, minimal clean presentation, soft warm lighting' },
   { slug: 'simple-dal', prompt: 'Overhead food photography of simple dal, golden yellow lentil soup with tadka of cumin, mustard seeds, and curry leaves on top, served in a ceramic bowl, garnished with cilantro and lemon, warm lighting' },
+  { slug: 'crispy-roasted-tofu-bites', prompt: 'Overhead food photography of crispy roasted tofu bites, golden brown cubes of tofu with sesame seeds and sliced green onion, arranged on parchment paper on a baking sheet, warm natural lighting' },
+  { slug: 'spiced-cottage-cheese-bowl', prompt: 'Overhead food photography of a cottage cheese bowl with diced cucumber and tomato, sprinkled with roasted cumin and chaat masala, garnished with cilantro and lemon wedge, in a ceramic bowl, bright natural lighting' },
+  { slug: 'masala-peanut-chaat', prompt: 'Overhead food photography of masala peanut chaat, roasted peanuts mixed with diced red onion, tomato, green chili, and cilantro, served in a paper cone or small bowl, garnished with lime wedge, rustic surface, warm lighting' },
+  { slug: 'egg-salad-lettuce-cups', prompt: 'Overhead food photography of egg salad lettuce cups, chopped boiled egg salad scooped into fresh butter lettuce leaves, sprinkled with paprika and chives, arranged on a wooden board, bright natural lighting' },
+  { slug: 'marinated-tofu-jerky', prompt: 'Overhead food photography of tofu jerky strips, dark brown chewy thin slices of baked marinated tofu arranged on parchment paper, glossy soy-sriracha glaze, rustic wooden surface, warm natural lighting' },
 ];
 
 const DELAY_MS = 8000; // 8 seconds between requests to stay within free tier limits
