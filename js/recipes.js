@@ -3268,68 +3268,6 @@ const recipes = [
   },
 
   {
-    slug: "marinated-tofu-jerky",
-    title: "Marinated Tofu Jerky",
-    image: "images/marinated-tofu-jerky.jpg",
-    category: "snack",
-    cuisine: "Asian-Fusion",
-    difficulty: "easy",
-    prepTime: 15,
-    cookTime: 90,
-    servings: 4,
-    proteinPerServing: 20,
-    caloriesPerServing: 170,
-    fatPerServing: 8,
-    carbsPerServing: 5,
-    fiberPerServing: 1,
-    description: "Thin slices of extra-firm tofu marinated in a soy-sriracha glaze, then baked low and slow until chewy and concentrated with flavor. The vegetarian answer to beef jerky.",
-    story: "I used to buy those overpriced vegan jerky bags at the health food store until I realized I could make something better at home for a fraction of the cost. The concept is dead simple: slice tofu thin, soak it in a flavorful marinade, and bake it at a low temperature until most of the moisture evaporates and you're left with chewy, concentrated strips.\n\nThe marinade is where all the flavor lives. Soy sauce, sriracha, a touch of maple syrup, garlic, and smoked paprika. You want it punchy and aggressive because the flavor mellows out as the tofu dries. Let the slices sit in the marinade for at least an hour, flipping once. Overnight in the fridge is even better. The tofu soaks up the liquid like a sponge.\n\nBaking takes a while, about 90 minutes at 275 degrees, but it's completely hands-off. You flip the pieces once at the halfway mark and otherwise just let the oven do its thing. The slices shrink down and get chewy with slightly crispy edges. They won't be exactly like beef jerky, but they scratch the same itch. I make a batch every weekend and keep them in a bag in my gym bag. They're shelf-stable for about a week at room temperature and even longer in the fridge. Twenty grams of protein in a portable, no-refrigeration-needed format. Hard to beat that.",
-    proteinModification: "Store-bought vegan jerky typically delivers about 10-12g protein per serving and costs a lot. We use a full 16oz block of extra-firm tofu, pressed and sliced thin, which concentrates the protein as moisture evaporates during baking. The result is 20g protein per serving with no fillers.",
-    ingredients: [
-      { amount: 16, unit: "oz", item: "extra-firm tofu", note: "pressed for 15 minutes", protein: 64 },
-      { amount: 3, unit: "tbsp", item: "soy sauce" },
-      { amount: 1, unit: "tbsp", item: "sriracha" },
-      { amount: 1, unit: "tbsp", item: "maple syrup" },
-      { amount: 1, unit: "tsp", item: "smoked paprika" },
-      { amount: 1, unit: "tsp", item: "garlic powder" },
-      { amount: 0.5, unit: "tsp", item: "onion powder" },
-      { amount: 0.5, unit: "tsp", item: "black pepper" },
-      { amount: 1, unit: "tsp", item: "sesame oil" }
-    ],
-    instructions: [
-      "Press the tofu: Wrap the block in a clean kitchen towel, place on a cutting board, and set a heavy pot or pan on top. Let it press for 15 minutes.",
-      "Slice the pressed tofu into thin strips, about 1/8 to 1/4 inch thick. Thinner strips get chewier and more jerky-like. Thicker ones stay a bit more tender.",
-      "Whisk together the soy sauce, sriracha, maple syrup, smoked paprika, garlic powder, onion powder, black pepper, and sesame oil in a shallow dish.",
-      "Lay the tofu slices in the marinade in a single layer. If you need to stack them, that's fine. Flip them a few times to coat. Marinate for at least 1 hour, or overnight in the fridge for best results.",
-      "Preheat oven to 275°F. Line a baking sheet with parchment paper.",
-      "Lay the marinated tofu slices on the baking sheet in a single layer. Brush any remaining marinade over the tops.",
-      "Bake for 45 minutes, then flip each piece and bake for another 40-45 minutes until the slices are dry to the touch, chewy, and slightly crispy on the edges.",
-      "Let cool completely on the baking sheet. They firm up more as they cool. Store in an airtight container at room temperature for up to a week or in the fridge for up to two weeks."
-    ],
-    proteinTips: [
-      "Use super-firm tofu (the kind that doesn't come packed in water) for even denser, chewier jerky.",
-      "Double the batch since they keep well and the oven time is the same.",
-      "Pair with a handful of mixed nuts for an extra 6g protein on the go."
-    ],
-    substitutions: [
-      "No sriracha? Use sambal oelek, gochujang, or any hot sauce you like.",
-      "Swap maple syrup for honey or agave nectar.",
-      "No smoked paprika? Use regular paprika plus a tiny drop of liquid smoke.",
-      "Use tamari instead of soy sauce for a gluten-free version."
-    ],
-    pairings: [],
-    tags: [
-      "asian-fusion",
-      "snack",
-      "tofu",
-      "jerky",
-      "high-protein",
-      "meal-prep",
-      "grab-and-go"
-    ]
-  },
-
-  {
     slug: "protein-jeera-rice",
     title: "Protein Jeera Rice",
     image: "images/protein-jeera-rice.jpg",

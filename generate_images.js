@@ -89,7 +89,6 @@ const RECIPES = [
   { slug: 'spiced-cottage-cheese-bowl', prompt: 'Overhead food photography of a cottage cheese bowl with diced cucumber and tomato, sprinkled with roasted cumin and chaat masala, garnished with cilantro and lemon wedge, in a ceramic bowl, bright natural lighting' },
   { slug: 'masala-peanut-chaat', prompt: 'Overhead food photography of masala peanut chaat, roasted peanuts mixed with diced red onion, tomato, green chili, and cilantro, served in a paper cone or small bowl, garnished with lime wedge, rustic surface, warm lighting' },
   { slug: 'egg-salad-lettuce-cups', prompt: 'Overhead food photography of egg salad lettuce cups, chopped boiled egg salad scooped into fresh butter lettuce leaves, sprinkled with paprika and chives, arranged on a wooden board, bright natural lighting' },
-  { slug: 'marinated-tofu-jerky', prompt: 'Overhead food photography of tofu jerky strips, dark brown chewy thin slices of baked marinated tofu arranged on parchment paper, glossy soy-sriracha glaze, rustic wooden surface, warm natural lighting' },
 ];
 
 const DELAY_MS = 8000; // 8 seconds between requests to stay within free tier limits
