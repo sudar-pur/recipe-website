@@ -3027,6 +3027,309 @@ const recipes = [
   },
 
   {
+    slug: "crispy-roasted-tofu-bites",
+    title: "Crispy Roasted Tofu Bites",
+    image: "images/crispy-roasted-tofu-bites.jpg",
+    category: "snack",
+    cuisine: "Asian-Fusion",
+    difficulty: "easy",
+    prepTime: 15,
+    cookTime: 30,
+    servings: 4,
+    proteinPerServing: 18,
+    caloriesPerServing: 180,
+    fatPerServing: 9,
+    carbsPerServing: 6,
+    fiberPerServing: 1,
+    description: "Pressed tofu cubes seasoned with soy sauce, garlic, and sesame, roasted until golden and crispy on the outside while staying tender inside. Eat them hot off the pan or cold from the fridge.",
+    story: "I started making these because I wanted something I could eat at my desk between meals that wasn't another handful of nuts. Roasted tofu sounded boring until I actually nailed the technique: press the water out properly, get the seasoning right, and roast at a high enough temperature to get real crunch on the outside.\n\nThe pressing step matters more than anything else here. I wrap the tofu block in a clean kitchen towel, put it on a cutting board, and set a heavy pot on top for about 15 minutes. You'll be surprised how much water comes out. That water is the enemy of crispiness. Once it's pressed and cubed, you toss the pieces in soy sauce, minced garlic, sesame oil, and a little cornstarch. The cornstarch is the secret. It creates this thin coating that gets genuinely crispy in the oven.\n\nAt 400 degrees, they take about 25-30 minutes with one flip halfway through. When they come out, they're golden brown with slightly chewy edges and a tender center. I eat them straight off the pan half the time. The other half, I let them cool completely and throw them in a container in the fridge. They're surprisingly good cold the next day, almost like little savory snack bites. Four or five of these between lunch and dinner keeps me from reaching for junk.",
+    proteinModification: "Standard roasted tofu snacks use small portions and light seasoning, delivering about 10-12g protein. We use a full 14oz block of extra-firm tofu for generous servings and skip any filler ingredients, keeping the protein density high at 18g per serving.",
+    ingredients: [
+      { amount: 14, unit: "oz", item: "extra-firm tofu", note: "pressed for 15 minutes and cut into 3/4-inch cubes", protein: 56 },
+      { amount: 2, unit: "tbsp", item: "soy sauce" },
+      { amount: 1, unit: "tbsp", item: "sesame oil" },
+      { amount: 3, unit: "cloves", item: "garlic", note: "minced" },
+      { amount: 1, unit: "tbsp", item: "cornstarch" },
+      { amount: 0.5, unit: "tsp", item: "black pepper" },
+      { amount: 1, unit: "tbsp", item: "sesame seeds", note: "for finishing", protein: 2 },
+      { amount: 1, unit: "", item: "green onion", note: "sliced, for finishing" }
+    ],
+    instructions: [
+      "Press the tofu: Wrap the block in a clean kitchen towel, set it on a cutting board, and place a heavy pot or skillet on top. Let it sit for 15 minutes to squeeze out excess water.",
+      "Preheat oven to 400°F. Line a baking sheet with parchment paper.",
+      "Cut the pressed tofu into 3/4-inch cubes and place them in a large bowl.",
+      "Add soy sauce, sesame oil, and minced garlic. Toss gently to coat all the cubes evenly.",
+      "Sprinkle cornstarch and black pepper over the tofu and toss again until every piece has a thin coating.",
+      "Spread the tofu in a single layer on the baking sheet. Make sure the pieces aren't touching, they need airflow to crisp up.",
+      "Roast for 15 minutes, then flip each piece and roast for another 12-15 minutes until golden brown and crispy on the edges.",
+      "Sprinkle with sesame seeds and sliced green onion. Eat hot or let cool completely and store in an airtight container in the fridge for up to 4 days."
+    ],
+    proteinTips: [
+      "Drizzle with a peanut butter and soy sauce dip for an extra 4g protein per tablespoon.",
+      "Double the batch and use them as a topping for grain bowls throughout the week.",
+      "Pair with a side of edamame for an extra 9g protein."
+    ],
+    substitutions: [
+      "No sesame oil? Use a neutral oil and add a pinch of toasted sesame seeds for flavor.",
+      "Swap soy sauce for tamari or coconut aminos if gluten-free.",
+      "No cornstarch? Use arrowroot powder for the same crispy coating.",
+      "Add a teaspoon of sriracha or gochugaru to the marinade for heat."
+    ],
+    pairings: [],
+    tags: [
+      "asian-fusion",
+      "snack",
+      "tofu",
+      "roasted",
+      "high-protein",
+      "meal-prep",
+      "grab-and-go"
+    ]
+  },
+
+  {
+    slug: "spiced-cottage-cheese-bowl",
+    title: "Spiced Cottage Cheese Bowl",
+    image: "images/spiced-cottage-cheese-bowl.jpg",
+    category: "snack",
+    cuisine: "Indian",
+    difficulty: "easy",
+    prepTime: 5,
+    cookTime: 0,
+    servings: 2,
+    proteinPerServing: 14,
+    caloriesPerServing: 140,
+    fatPerServing: 3,
+    carbsPerServing: 8,
+    fiberPerServing: 1,
+    description: "Creamy cottage cheese tossed with roasted cumin, chaat masala, cucumber, and tomato. No cooking required, just mix and eat.",
+    story: "This is the snack I make when I have absolutely zero motivation to cook but still need to hit my protein numbers. It takes five minutes, requires no heat, no blender, no real effort at all. Just scoop cottage cheese into a bowl and throw some spices and vegetables on top.\n\nThe Indian spice angle is what makes this worth talking about. Plain cottage cheese is one of those foods that most people tolerate but nobody gets excited about. Roasted cumin changes that. You take whole cumin seeds, dry-roast them in a pan for a minute until they start to smell nutty and smoky, then crush them roughly. That smoky cumin mixed into cold, creamy cottage cheese is genuinely good. Add chaat masala for that tangy, funky kick, some diced cucumber for crunch, chopped tomato for freshness, and a squeeze of lemon to tie it all together.\n\nI eat this at least three times a week, usually around 3 or 4 in the afternoon when I'm starting to fade. It's 14g of protein with barely any effort, and it fills the gap between lunch and dinner without making me feel heavy. My wife thinks it's the most boring snack on earth, but I genuinely look forward to it.",
+    proteinModification: "Cottage cheese is already a protein powerhouse at about 12-14g per cup. We keep the serving size generous and don't dilute the protein with heavy toppings. The spices and vegetables add flavor and volume without cutting into the protein ratio.",
+    ingredients: [
+      { amount: 1.5, unit: "cups", item: "low-fat cottage cheese", protein: 28 },
+      { amount: 1, unit: "tsp", item: "cumin seeds", note: "dry-roasted and roughly crushed" },
+      { amount: 0.5, unit: "tsp", item: "chaat masala" },
+      { amount: 0.25, unit: "tsp", item: "black salt (kala namak)", note: "optional but recommended" },
+      { amount: 0.5, unit: "medium", item: "cucumber", note: "diced" },
+      { amount: 1, unit: "small", item: "tomato", note: "diced" },
+      { amount: 1, unit: "tbsp", item: "lemon juice" },
+      { amount: 1, unit: "pinch", item: "red chili flakes", note: "optional" },
+      { amount: 1, unit: "tbsp", item: "fresh cilantro", note: "chopped" }
+    ],
+    instructions: [
+      "Dry-roast the cumin seeds in a small pan over medium heat for about 60 seconds, shaking the pan, until they darken slightly and smell nutty. Crush them roughly with the back of a spoon or a mortar and pestle.",
+      "Divide the cottage cheese between two bowls.",
+      "Top each bowl with diced cucumber and tomato.",
+      "Sprinkle the roasted cumin, chaat masala, black salt, and chili flakes over the top.",
+      "Squeeze lemon juice over everything and garnish with fresh cilantro.",
+      "Mix it all together and eat immediately, or cover and refrigerate for up to a day."
+    ],
+    proteinTips: [
+      "Use full-fat cottage cheese for a richer taste, same protein content.",
+      "Add a tablespoon of roasted peanuts for an extra 4g protein and crunch.",
+      "Stir in a tablespoon of hemp hearts for an extra 3g protein per serving."
+    ],
+    substitutions: [
+      "No chaat masala? Use a mix of cumin, coriander, and a pinch of citric acid.",
+      "No black salt? Use regular salt, you'll miss the sulfurous edge but it'll still taste good.",
+      "Swap cucumber for diced bell pepper or radishes.",
+      "No cottage cheese? Use ricotta cheese mixed with a splash of milk to loosen it up."
+    ],
+    pairings: [],
+    tags: [
+      "indian",
+      "snack",
+      "cottage-cheese",
+      "no-cook",
+      "high-protein",
+      "quick",
+      "easy"
+    ]
+  },
+
+  {
+    slug: "masala-peanut-chaat",
+    title: "Masala Peanut Chaat",
+    image: "images/masala-peanut-chaat.jpg",
+    category: "snack",
+    cuisine: "Indian",
+    difficulty: "easy",
+    prepTime: 10,
+    cookTime: 0,
+    servings: 4,
+    proteinPerServing: 12,
+    caloriesPerServing: 220,
+    fatPerServing: 16,
+    carbsPerServing: 12,
+    fiberPerServing: 3,
+    description: "Roasted peanuts tossed with diced onion, tomato, fresh lime, chaat masala, and cilantro. A classic Indian street snack with zero cooking required.",
+    story: "This is the snack that every street vendor in India sells in paper cones, and it costs about 20 rupees. I grew up eating it after school and didn't even think of it as a protein source until I started tracking my macros. Turns out a serving of roasted peanuts has more protein than most people realize.\n\nThe beauty of masala peanut chaat is that it takes ten minutes, requires absolutely no cooking, and the flavor is way more interesting than eating plain peanuts out of a jar. You chop up some onion, tomato, and fresh green chili, squeeze lime over everything, hit it with chaat masala and a pinch of salt, toss in a big handful of cilantro, and you're done. The lime juice and chaat masala do all the heavy lifting. There's something about that sour-spicy-salty combination that makes peanuts taste ten times better.\n\nI keep a jar of roasted peanuts in my desk drawer specifically for this. When I need a snack, I pull out a cutting board, dice an onion and tomato, and have this ready in the time it would take me to microwave something. It travels well too. I've packed this in a container for road trips and it holds up for hours. The peanuts stay crunchy because there's barely any liquid.",
+    proteinModification: "Standard peanut chaat uses a small handful of peanuts, about 7-8g protein per serving. We use a generous 1.5 cups of roasted peanuts divided across 4 servings, bringing each portion to 12g protein. The peanuts are the star, the vegetables are just dressing.",
+    ingredients: [
+      { amount: 1.5, unit: "cups", item: "roasted peanuts", note: "skin-on or skinless", protein: 42 },
+      { amount: 1, unit: "small", item: "red onion", note: "finely diced" },
+      { amount: 1, unit: "medium", item: "tomato", note: "deseeded and finely diced" },
+      { amount: 1, unit: "", item: "green chili", note: "finely chopped, adjust to taste" },
+      { amount: 2, unit: "tbsp", item: "lime juice", note: "about 1 lime" },
+      { amount: 1, unit: "tsp", item: "chaat masala" },
+      { amount: 0.5, unit: "tsp", item: "red chili powder", note: "optional" },
+      { amount: 0.5, unit: "tsp", item: "salt" },
+      { amount: 3, unit: "tbsp", item: "fresh cilantro", note: "chopped" }
+    ],
+    instructions: [
+      "If using raw peanuts, dry-roast them in a pan over medium heat for 5-6 minutes, stirring constantly, until they turn golden and smell toasty. If using pre-roasted peanuts, skip this step.",
+      "Dice the onion and tomato finely. Chop the green chili.",
+      "In a large bowl, combine the peanuts, diced onion, tomato, and green chili.",
+      "Add lime juice, chaat masala, red chili powder, and salt. Toss everything together until the peanuts are coated.",
+      "Add the chopped cilantro and give it one final toss.",
+      "Serve immediately for the best crunch. You can prep the vegetables ahead, but toss with peanuts just before eating to keep them from getting soft."
+    ],
+    proteinTips: [
+      "Add a tablespoon of roasted chana dal (split chickpeas) for an extra 3g protein.",
+      "Mix in a handful of roasted soybeans for a higher-protein version, adds about 5g per serving.",
+      "Serve alongside a glass of buttermilk for an extra 4g protein."
+    ],
+    substitutions: [
+      "No chaat masala? Use cumin powder with a squeeze of extra lime.",
+      "Swap peanuts for roasted cashews or a mixed nut blend.",
+      "No fresh green chili? Use a pinch of cayenne pepper.",
+      "Add diced cucumber or raw mango for extra crunch and tartness."
+    ],
+    pairings: [],
+    tags: [
+      "indian",
+      "snack",
+      "peanuts",
+      "no-cook",
+      "street-food",
+      "high-protein",
+      "quick"
+    ]
+  },
+
+  {
+    slug: "egg-salad-lettuce-cups",
+    title: "Egg Salad Lettuce Cups",
+    image: "images/egg-salad-lettuce-cups.jpg",
+    category: "snack",
+    cuisine: "Fusion",
+    difficulty: "easy",
+    prepTime: 15,
+    cookTime: 12,
+    servings: 4,
+    proteinPerServing: 18,
+    caloriesPerServing: 200,
+    fatPerServing: 12,
+    carbsPerServing: 4,
+    fiberPerServing: 1,
+    description: "Chopped boiled eggs mixed with Greek yogurt instead of mayo, a hit of Dijon mustard, and a sprinkle of paprika, scooped into crisp butter lettuce leaves.",
+    story: "Classic egg salad is one of those recipes where everyone uses mayo and nobody questions it. I questioned it. Not because mayo is bad, but because swapping in Greek yogurt gives you more protein and a tangier flavor that I actually prefer. The yogurt keeps the egg salad creamy and holds everything together the same way mayo does, but with about 10g of protein per quarter cup instead of zero.\n\nThe lettuce cup idea started because I was trying to cut down on bread at lunch and needed something to hold the egg salad. Butter lettuce leaves are perfect. They're sturdy enough to hold a scoop of filling without falling apart, and they add a fresh, crunchy contrast to the soft egg salad. It feels lighter than a sandwich but still fills you up because of all the protein from the eggs and yogurt.\n\nI hard-boil a dozen eggs every Sunday as part of my meal prep. They keep in the fridge for a week. When I want this snack, I grab four eggs, chop them up, mix in the yogurt and mustard, and scoop it into lettuce cups. The whole thing takes maybe five minutes once the eggs are already cooked. I've also packed these for work by keeping the egg salad and lettuce separate and assembling at my desk. Works great.",
+    proteinModification: "Traditional egg salad with mayo gives you about 12-13g protein per serving from the eggs alone. By replacing the mayo with Greek yogurt, we add 5-6g more protein per serving while keeping the same creamy texture. Total protein per serving: 18g.",
+    ingredients: [
+      { amount: 8, unit: "large", item: "eggs", note: "hard-boiled and peeled", protein: 48 },
+      { amount: 0.5, unit: "cup", item: "Greek yogurt", protein: 9 },
+      { amount: 1, unit: "tbsp", item: "Dijon mustard" },
+      { amount: 0.5, unit: "tsp", item: "paprika" },
+      { amount: 0.25, unit: "tsp", item: "black pepper" },
+      { amount: 0.25, unit: "tsp", item: "salt" },
+      { amount: 2, unit: "tbsp", item: "fresh chives", note: "finely chopped" },
+      { amount: 1, unit: "head", item: "butter lettuce", note: "leaves separated and washed" }
+    ],
+    instructions: [
+      "Place eggs in a single layer in a pot and cover with cold water by about an inch. Bring to a rolling boil over high heat, then cover the pot, turn off the heat, and let sit for 10-12 minutes.",
+      "Transfer eggs to an ice bath for 5 minutes, then peel.",
+      "Chop the eggs roughly. Some people like it fine, I prefer chunky so you get distinct bites of egg white and yolk.",
+      "In a bowl, mix the chopped eggs with Greek yogurt, Dijon mustard, paprika, salt, and pepper. Stir until everything is evenly coated but don't mash it into a paste.",
+      "Fold in the chopped chives.",
+      "Separate the butter lettuce into individual cup-shaped leaves. Pick the larger, sturdier ones.",
+      "Spoon the egg salad into the lettuce cups and serve. Store leftover egg salad in the fridge for up to 3 days, keeping lettuce separate."
+    ],
+    proteinTips: [
+      "Add an extra egg to bump each serving by about 1.5g protein.",
+      "Sprinkle everything bagel seasoning on top for extra flavor without extra calories.",
+      "Serve with a side of cottage cheese for an extra 12g protein."
+    ],
+    substitutions: [
+      "No butter lettuce? Use romaine hearts or endive leaves.",
+      "Swap Dijon for yellow mustard or whole grain mustard.",
+      "No fresh chives? Use diced green onion or a pinch of dried dill.",
+      "For a spicier version, add a teaspoon of sriracha or a diced jalapeno."
+    ],
+    pairings: [],
+    tags: [
+      "fusion",
+      "snack",
+      "eggs",
+      "low-carb",
+      "high-protein",
+      "grab-and-go",
+      "meal-prep"
+    ]
+  },
+
+  {
+    slug: "marinated-tofu-jerky",
+    title: "Marinated Tofu Jerky",
+    image: "images/marinated-tofu-jerky.jpg",
+    category: "snack",
+    cuisine: "Asian-Fusion",
+    difficulty: "easy",
+    prepTime: 15,
+    cookTime: 90,
+    servings: 4,
+    proteinPerServing: 20,
+    caloriesPerServing: 170,
+    fatPerServing: 8,
+    carbsPerServing: 5,
+    fiberPerServing: 1,
+    description: "Thin slices of extra-firm tofu marinated in a soy-sriracha glaze, then baked low and slow until chewy and concentrated with flavor. The vegetarian answer to beef jerky.",
+    story: "I used to buy those overpriced vegan jerky bags at the health food store until I realized I could make something better at home for a fraction of the cost. The concept is dead simple: slice tofu thin, soak it in a flavorful marinade, and bake it at a low temperature until most of the moisture evaporates and you're left with chewy, concentrated strips.\n\nThe marinade is where all the flavor lives. Soy sauce, sriracha, a touch of maple syrup, garlic, and smoked paprika. You want it punchy and aggressive because the flavor mellows out as the tofu dries. Let the slices sit in the marinade for at least an hour, flipping once. Overnight in the fridge is even better. The tofu soaks up the liquid like a sponge.\n\nBaking takes a while, about 90 minutes at 275 degrees, but it's completely hands-off. You flip the pieces once at the halfway mark and otherwise just let the oven do its thing. The slices shrink down and get chewy with slightly crispy edges. They won't be exactly like beef jerky, but they scratch the same itch. I make a batch every weekend and keep them in a bag in my gym bag. They're shelf-stable for about a week at room temperature and even longer in the fridge. Twenty grams of protein in a portable, no-refrigeration-needed format. Hard to beat that.",
+    proteinModification: "Store-bought vegan jerky typically delivers about 10-12g protein per serving and costs a lot. We use a full 16oz block of extra-firm tofu, pressed and sliced thin, which concentrates the protein as moisture evaporates during baking. The result is 20g protein per serving with no fillers.",
+    ingredients: [
+      { amount: 16, unit: "oz", item: "extra-firm tofu", note: "pressed for 15 minutes", protein: 64 },
+      { amount: 3, unit: "tbsp", item: "soy sauce" },
+      { amount: 1, unit: "tbsp", item: "sriracha" },
+      { amount: 1, unit: "tbsp", item: "maple syrup" },
+      { amount: 1, unit: "tsp", item: "smoked paprika" },
+      { amount: 1, unit: "tsp", item: "garlic powder" },
+      { amount: 0.5, unit: "tsp", item: "onion powder" },
+      { amount: 0.5, unit: "tsp", item: "black pepper" },
+      { amount: 1, unit: "tsp", item: "sesame oil" }
+    ],
+    instructions: [
+      "Press the tofu: Wrap the block in a clean kitchen towel, place on a cutting board, and set a heavy pot or pan on top. Let it press for 15 minutes.",
+      "Slice the pressed tofu into thin strips, about 1/8 to 1/4 inch thick. Thinner strips get chewier and more jerky-like. Thicker ones stay a bit more tender.",
+      "Whisk together the soy sauce, sriracha, maple syrup, smoked paprika, garlic powder, onion powder, black pepper, and sesame oil in a shallow dish.",
+      "Lay the tofu slices in the marinade in a single layer. If you need to stack them, that's fine. Flip them a few times to coat. Marinate for at least 1 hour, or overnight in the fridge for best results.",
+      "Preheat oven to 275°F. Line a baking sheet with parchment paper.",
+      "Lay the marinated tofu slices on the baking sheet in a single layer. Brush any remaining marinade over the tops.",
+      "Bake for 45 minutes, then flip each piece and bake for another 40-45 minutes until the slices are dry to the touch, chewy, and slightly crispy on the edges.",
+      "Let cool completely on the baking sheet. They firm up more as they cool. Store in an airtight container at room temperature for up to a week or in the fridge for up to two weeks."
+    ],
+    proteinTips: [
+      "Use super-firm tofu (the kind that doesn't come packed in water) for even denser, chewier jerky.",
+      "Double the batch since they keep well and the oven time is the same.",
+      "Pair with a handful of mixed nuts for an extra 6g protein on the go."
+    ],
+    substitutions: [
+      "No sriracha? Use sambal oelek, gochujang, or any hot sauce you like.",
+      "Swap maple syrup for honey or agave nectar.",
+      "No smoked paprika? Use regular paprika plus a tiny drop of liquid smoke.",
+      "Use tamari instead of soy sauce for a gluten-free version."
+    ],
+    pairings: [],
+    tags: [
+      "asian-fusion",
+      "snack",
+      "tofu",
+      "jerky",
+      "high-protein",
+      "meal-prep",
+      "grab-and-go"
+    ]
+  },
+
+  {
     slug: "protein-jeera-rice",
     title: "Protein Jeera Rice",
     image: "images/protein-jeera-rice.jpg",
