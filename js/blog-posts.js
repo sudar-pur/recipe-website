@@ -2,7 +2,7 @@ const blogPosts = [
   {
     slug: "how-to-get-150g-protein-vegetarian",
     title: "How to Get 150g Protein a Day as a Vegetarian",
-    date: "2025-01-06",
+    date: "2025-11-03",
     excerpt: "Hitting 150g of protein without meat sounds impossible until you actually map it out. Here's exactly how I do it with real food, no powder required.",
     tags: ["protein", "meal-planning", "vegetarian", "high-protein"],
     content: `
@@ -46,7 +46,7 @@ const blogPosts = [
   {
     slug: "high-protein-vegetarian-meal-prep",
     title: "High Protein Vegetarian Meal Prep for the Week",
-    date: "2025-01-20",
+    date: "2025-11-17",
     excerpt: "My Sunday meal prep routine that keeps me fed with 30-40g protein meals all week. Five recipes, two hours, zero excuses.",
     tags: ["meal-prep", "protein", "vegetarian", "weekly-plan"],
     content: `
@@ -101,7 +101,7 @@ const blogPosts = [
   {
     slug: "best-vegetarian-protein-sources-ranked",
     title: "Best Vegetarian Protein Sources Ranked by Grams",
-    date: "2025-02-03",
+    date: "2025-12-01",
     excerpt: "A no-nonsense ranking of vegetarian protein sources by actual grams per serving. Some will surprise you.",
     tags: ["protein", "nutrition", "vegetarian", "guide"],
     content: `
@@ -158,7 +158,7 @@ const blogPosts = [
   {
     slug: "paneer-vs-tofu-protein-comparison",
     title: "Paneer vs Tofu: Which Has More Protein?",
-    date: "2025-02-17",
+    date: "2025-12-15",
     excerpt: "The great paneer vs tofu debate, settled with actual numbers. Both are excellent protein sources, but they're not interchangeable.",
     tags: ["paneer", "tofu", "protein", "comparison", "nutrition"],
     content: `
@@ -223,7 +223,7 @@ const blogPosts = [
   {
     slug: "high-protein-indian-breakfast-ideas",
     title: "High Protein Indian Breakfast Ideas",
-    date: "2025-03-03",
+    date: "2025-12-29",
     excerpt: "Forget plain cereal. These Indian breakfast ideas pack 20-35g protein per serving and actually taste amazing.",
     tags: ["breakfast", "indian", "protein", "meal-ideas"],
     content: `
@@ -264,7 +264,7 @@ const blogPosts = [
   {
     slug: "vegetarian-bodybuilding-diet-plan",
     title: "Vegetarian Bodybuilding Diet Plan",
-    date: "2025-03-17",
+    date: "2026-01-12",
     excerpt: "A realistic vegetarian diet plan for building muscle. No bro-science, no bland food, just 150g+ protein from real meals.",
     tags: ["bodybuilding", "diet-plan", "protein", "muscle-building", "vegetarian"],
     content: `
@@ -324,7 +324,7 @@ const blogPosts = [
   {
     slug: "how-much-protein-to-build-muscle",
     title: "How Much Protein Do You Actually Need to Build Muscle?",
-    date: "2025-03-31",
+    date: "2026-01-26",
     excerpt: "Cutting through the noise on protein requirements. The science says you probably need less than Instagram tells you, but more than you're currently eating.",
     tags: ["protein", "muscle-building", "nutrition", "science"],
     content: `
@@ -372,7 +372,7 @@ const blogPosts = [
   {
     slug: "high-protein-vegetarian-dinners-under-30-minutes",
     title: "10 High Protein Vegetarian Dinners Under 30 Minutes",
-    date: "2025-04-14",
+    date: "2026-02-09",
     excerpt: "Quick, high-protein vegetarian dinners for busy weeknights. Every one of these is on the table in 30 minutes or less.",
     tags: ["dinner", "quick-meals", "protein", "vegetarian", "30-minutes"],
     content: `
@@ -417,7 +417,7 @@ const blogPosts = [
   {
     slug: "greek-yogurt-indian-cooking-protein-hack",
     title: "Greek Yogurt in Indian Cooking: A Protein Hack",
-    date: "2025-04-28",
+    date: "2026-02-23",
     excerpt: "Swapping regular yogurt or cream for Greek yogurt in Indian recipes doubles the protein without changing the taste. Here's how to do it right.",
     tags: ["greek-yogurt", "indian", "protein", "cooking-tips", "hack"],
     content: `
@@ -462,7 +462,7 @@ const blogPosts = [
   {
     slug: "lentils-for-muscle-building-guide",
     title: "Lentils for Muscle Building: The Complete Guide",
-    date: "2025-05-12",
+    date: "2026-03-09",
     excerpt: "Lentils have been building strong people for thousands of years. Here's how to use them to hit your protein goals.",
     tags: ["lentils", "dal", "muscle-building", "protein", "guide"],
     content: `
@@ -523,7 +523,7 @@ const blogPosts = [
   {
     slug: "high-protein-vegetarian-snacks",
     title: "High Protein Vegetarian Snacks That Actually Taste Good",
-    date: "2025-05-26",
+    date: "2026-03-23",
     excerpt: "Most snack lists are boring. These high-protein vegetarian snacks actually taste good enough to look forward to.",
     tags: ["snacks", "protein", "vegetarian", "quick-meals"],
     content: `
@@ -570,7 +570,7 @@ const blogPosts = [
   {
     slug: "can-you-build-muscle-without-meat",
     title: "Can You Build Muscle Without Eating Meat?",
-    date: "2025-06-09",
+    date: "2026-04-06",
     excerpt: "The short answer is yes. The longer answer involves some science, some math, and a lot of lentils.",
     tags: ["muscle-building", "vegetarian", "protein", "fitness", "science"],
     content: `
@@ -630,7 +630,7 @@ const blogPosts = [
   {
     slug: "chickpea-recipes-for-gym-people",
     title: "Chickpea Recipes for Gym People",
-    date: "2025-06-23",
+    date: "2026-04-20",
     excerpt: "Chickpeas are a gym person's best friend. 15g protein, 13g fiber, cheap, versatile, and actually delicious. Here are the best ways to eat them.",
     tags: ["chickpeas", "protein", "gym", "recipes", "fitness"],
     content: `
@@ -678,7 +678,7 @@ const blogPosts = [
   {
     slug: "hit-protein-goals-without-protein-powder",
     title: "How I Hit My Protein Goals Without Protein Powder",
-    date: "2025-07-07",
+    date: "2026-05-04",
     excerpt: "Protein powder is fine, but I don't use it. Here's how I consistently hit 150g protein a day from whole food alone.",
     tags: ["protein", "whole-food", "no-supplements", "vegetarian", "nutrition"],
     content: `
@@ -732,7 +732,7 @@ const blogPosts = [
   {
     slug: "high-protein-vegetarian-lunches-for-work",
     title: "Best High Protein Vegetarian Lunches for Work",
-    date: "2025-07-21",
+    date: "2026-05-18",
     excerpt: "Lunches that travel well, reheat well, and pack 25-35g protein. No soggy salads, no sad desk lunches.",
     tags: ["lunch", "work", "meal-prep", "protein", "vegetarian"],
     content: `
@@ -784,7 +784,7 @@ const blogPosts = [
   {
     slug: "egg-recipes-for-muscle-gain",
     title: "Egg Recipes for Muscle Gain",
-    date: "2025-08-04",
+    date: "2026-06-01",
     excerpt: "Eggs are 6g of perfect protein each. Here are the best ways to eat them for muscle building, beyond just scrambled.",
     tags: ["eggs", "protein", "muscle-gain", "recipes", "breakfast"],
     content: `
@@ -837,7 +837,7 @@ const blogPosts = [
   {
     slug: "mediterranean-diet-high-protein-vegetarian",
     title: "Mediterranean Diet Meets High Protein Vegetarian",
-    date: "2025-08-18",
+    date: "2026-06-15",
     excerpt: "The Mediterranean diet is considered the healthiest in the world. Here's how to combine it with high-protein vegetarian eating.",
     tags: ["mediterranean", "protein", "vegetarian", "healthy-eating", "diet"],
     content: `
@@ -889,7 +889,7 @@ const blogPosts = [
   {
     slug: "cottage-cheese-paneer-underrated-protein",
     title: "Cottage Cheese and Paneer: Underrated Protein Sources",
-    date: "2025-09-01",
+    date: "2026-06-29",
     excerpt: "Cottage cheese and paneer don't get the hype they deserve. Together, they're responsible for about 40% of my daily protein intake.",
     tags: ["cottage-cheese", "paneer", "protein", "dairy", "cooking-tips"],
     content: `
@@ -947,7 +947,7 @@ const blogPosts = [
   {
     slug: "what-i-eat-in-a-day-150g-protein-vegetarian",
     title: "What I Eat in a Day: 150g Protein, Fully Vegetarian",
-    date: "2025-09-15",
+    date: "2026-07-13",
     excerpt: "A full day of eating documented with exact portions, macros, and timestamps. 152g protein, zero meat, all delicious.",
     tags: ["what-i-eat", "protein", "vegetarian", "daily-log", "macros"],
     content: `
@@ -1026,7 +1026,7 @@ const blogPosts = [
   {
     slug: "high-protein-vegetarian-recipes-for-beginners",
     title: "High Protein Vegetarian Recipes for Beginners",
-    date: "2025-09-29",
+    date: "2026-08-10",
     excerpt: "Just starting your high-protein vegetarian journey? These 10 recipes are simple, forgiving, and pack serious protein with minimal cooking skill.",
     tags: ["beginners", "easy-recipes", "protein", "vegetarian", "cooking-basics"],
     content: `
