@@ -1081,5 +1081,344 @@ const blogPosts = [
 
       <p>High-protein vegetarian cooking isn't hard. It just requires a bit of practice and the right recipes. Start with the easy ones, build your skills, and before you know it, you'll be hitting 150g protein without thinking about it.</p>
     `
+  },
+  {
+    slug: "freezer-meal-prep-vegetarian-protein",
+    title: "Freezer Meal Prep Fundamentals for High-Protein Vegetarian Eating",
+    date: "2026-08-24",
+    excerpt: "What freezes well, what doesn't, the naan dough trick, and how to prep shared ingredients once and use them across a dozen recipes. The foundation for the weekly meal plan series.",
+    tags: ["meal-prep", "freezer", "batch-cooking", "protein", "vegetarian", "time-saving"],
+    content: `
+      <p>There's meal prep, and then there's freezer meal prep. Regular meal prep gets you through the week. Freezer meal prep gets you through the month. I do both, and the freezer side of things has honestly changed how I eat more than anything else. When you've got four containers of chana masala in the freezer, a bag of naan dough balls ready to roll out, and pre-portioned curry bases waiting to go, you're never more than 20 minutes away from a full high-protein meal.</p>
+
+      <p>This post covers the fundamentals - what works in the freezer, how to prep shared ingredients, and the techniques that make it all click. Then in <a href="blog-post.html?p=weekly-meal-plan-indian-freezer-prep">Week 1</a> and <a href="blog-post.html?p=weekly-meal-plan-mixed-cuisine-freezer-prep">Week 2</a> of this series, I'll lay out specific day-by-day meal plans built on these ideas.</p>
+
+      <h2>What Freezes Well (and What Doesn't)</h2>
+
+      <p>Not everything survives the freezer. Here's what I've tested over the past couple of years:</p>
+
+      <h3>Freezes Perfectly (3+ months)</h3>
+      <ul>
+        <li><strong><a href="recipe.html?r=protein-chana-masala">Chana masala</a></strong> - The best freezer curry I've found. 16g protein per serving. Chickpeas hold their texture beautifully.</li>
+        <li><strong><a href="recipe.html?r=rajma-masala">Rajma masala</a></strong> - Kidney beans freeze just as well as chickpeas. Actually tastes better after freezing because the beans absorb more of the sauce.</li>
+        <li><strong><a href="recipe.html?r=black-dal-makhani">Black dal makhani</a></strong> - Slow-cooked and already broken down. Freezing doesn't change the texture at all.</li>
+        <li><strong><a href="recipe.html?r=simple-dal">Simple dal</a></strong> - 10g protein, 5 minutes of prep. I always keep 4-6 portions in the freezer as a safety net.</li>
+        <li><strong><a href="recipe.html?r=protein-sambar">Protein sambar</a></strong> - 12g protein per serving. The vegetables soften a bit more but honestly that's how I prefer sambar anyway.</li>
+        <li><strong><a href="recipe.html?r=high-protein-dal-soup">Dal soup</a></strong> - Already a soup. Freeze in individual portions.</li>
+        <li><strong><a href="recipe.html?r=black-bean-enchiladas">Black bean enchiladas</a></strong> - Assemble fully, wrap the dish in foil, freeze. Go straight from freezer to oven.</li>
+        <li><strong><a href="recipe.html?r=baked-falafel-bites">Baked falafel bites</a></strong> - Freeze after baking. Reheat in the oven at 375°F for 10 minutes and they crisp right back up.</li>
+        <li><strong><a href="recipe.html?r=greek-egg-muffins">Greek egg muffins</a></strong> - My favorite freezer breakfast. 10g protein each. Microwave from frozen for 90 seconds.</li>
+        <li><strong><a href="recipe.html?r=garlic-naan">Naan dough</a></strong> - Freezes beautifully as individual balls. More on this below.</li>
+      </ul>
+
+      <h3>Doesn't Freeze Well</h3>
+      <ul>
+        <li><strong>Paneer</strong> - Gets rubbery and grainy. Always add paneer fresh.</li>
+        <li><strong>Raita and yogurt</strong> - Separates when frozen. <a href="recipe.html?r=greek-yogurt-raita">Raita</a> takes 5 minutes, just make it fresh.</li>
+        <li><strong>Crispy things</strong> - <a href="recipe.html?r=crispy-masala-chickpeas">Crispy masala chickpeas</a> and <a href="recipe.html?r=crispy-roasted-tofu-bites">crispy tofu bites</a> lose all their crunch.</li>
+        <li><strong>Salads and grain bowls</strong> - Anything with raw vegetables or delicate grains. Eat within 3-4 days.</li>
+        <li><strong>Hard-boiled eggs in curry</strong> - Eggs in <a href="recipe.html?r=egg-curry">egg curry</a> get rubbery. Freeze the sauce only, boil fresh eggs when you reheat.</li>
+      </ul>
+
+      <h2>The Shared Ingredient Prep</h2>
+
+      <p>This is the real unlock. Most Indian curries start with the same base: onions, ginger, garlic, tomatoes, and spices. If you prep these shared components once, you can cook 3-4 different curries in a fraction of the time.</p>
+
+      <h3>The Onion-Ginger-Garlic Base</h3>
+      <p>Almost every Indian recipe on this site starts with sautéed onions, minced garlic, and grated ginger. Do it all at once:</p>
+      <ul>
+        <li>Dice 6-8 large onions. Store in an airtight container in the fridge (lasts 4-5 days).</li>
+        <li>Mince 2 full heads of garlic (or use a food processor).</li>
+        <li>Grate a 4-inch piece of ginger. Mix with the garlic into a paste and store separately.</li>
+      </ul>
+      <p>This one prep session covers <a href="recipe.html?r=paneer-tikka-masala">paneer tikka masala</a>, <a href="recipe.html?r=protein-chana-masala">chana masala</a>, <a href="recipe.html?r=rajma-masala">rajma masala</a>, <a href="recipe.html?r=palak-paneer">palak paneer</a>, <a href="recipe.html?r=egg-curry">egg curry</a>, <a href="recipe.html?r=moong-dal-tadka">moong dal tadka</a>, and more. That's basically every Indian dinner on the site.</p>
+
+      <h3>Cooked Chickpeas and Beans</h3>
+      <p>Canned chickpeas are fine, but if you cook a big batch of dried chickpeas, you can portion them into freezer bags (about 1.5 cups per bag, which equals one can). Same with kidney beans and black beans. They thaw in minutes under warm water. One bag of dried chickpeas gives you enough for chana masala, <a href="recipe.html?r=crispy-masala-chickpeas">crispy masala chickpeas</a>, <a href="recipe.html?r=paneer-chickpea-power-bowl">paneer chickpea power bowl</a>, and <a href="recipe.html?r=baked-falafel-bites">baked falafel bites</a>.</p>
+
+      <h3>Cooked Lentils</h3>
+      <p>Cook a big pot of toor dal or masoor dal, slightly underdone. Portion into containers and freeze. When you need <a href="recipe.html?r=simple-dal">simple dal</a>, thaw it, make a quick tadka (temper cumin seeds and garlic in oil), pour it over, done. Five-minute dal from the freezer. Also works as a base for <a href="recipe.html?r=high-protein-dal-soup">dal soup</a>.</p>
+
+      <h3>Prepped Spinach</h3>
+      <p>Blanch a big bag of spinach, squeeze out the water, and blend it into a puree. Freeze in ice cube trays, then pop the cubes into a freezer bag. Each cube is about 2 tablespoons. When you want <a href="recipe.html?r=palak-paneer">palak paneer</a>, pull out 8-10 cubes. Skips the most annoying part of the recipe.</p>
+
+      <h2>The Naan Dough Trick</h2>
+
+      <p>This changed my weeknight dinners. <a href="recipe.html?r=garlic-naan">Garlic naan</a> dough freezes incredibly well, and fresh naan takes your freezer curry from "reheated leftovers" to "actual meal."</p>
+
+      <ol>
+        <li>Make a double or triple batch of naan dough.</li>
+        <li>After the dough rises, divide it into individual balls (one per naan).</li>
+        <li>Place the balls on a parchment-lined baking sheet, not touching, and freeze for 2 hours.</li>
+        <li>Transfer the frozen balls to a freezer bag. They'll keep for 2-3 months.</li>
+      </ol>
+
+      <p>When you want naan: pull out as many balls as you need, let them thaw on the counter for 30-45 minutes (or in the fridge overnight), roll out, and cook on a hot skillet. Fresh naan with zero day-of prep work. 6g protein per naan from the Greek yogurt in the dough.</p>
+
+      <h2>Storage Tips</h2>
+      <ul>
+        <li><strong>Cool completely</strong> before freezing. Hot food raises the freezer temperature and can partially thaw other items.</li>
+        <li><strong>Use rigid containers</strong> for curries and dals, not bags. Bags leak.</li>
+        <li><strong>Leave headroom</strong> in containers. Liquids expand when frozen.</li>
+        <li><strong>Label everything.</strong> Frozen chana masala and frozen rajma look identical. Write the name and date with a marker on masking tape.</li>
+        <li><strong>First in, first out.</strong> Put new containers behind old ones.</li>
+        <li><strong>Thaw in the fridge overnight</strong> when possible. Microwave thawing works but can create hot spots.</li>
+        <li><strong>Add a splash of water</strong> when reheating. Freezing removes moisture, so curries can be thicker than when you first made them.</li>
+      </ul>
+
+      <p>That's the foundation. Now check out the weekly plans to see this system in action: <a href="blog-post.html?p=weekly-meal-plan-indian-freezer-prep">Week 1 (Indian focus)</a> and <a href="blog-post.html?p=weekly-meal-plan-mixed-cuisine-freezer-prep">Week 2 (mixed cuisines)</a>.</p>
+    `
+  },
+  {
+    slug: "weekly-meal-plan-indian-freezer-prep",
+    title: "Week 1 Meal Plan: Indian Freezer Prep",
+    date: "2026-09-07",
+    excerpt: "A complete Indian-focused weekly meal plan. One Sunday batch cook, five days of meals, 130g+ protein daily. Shopping list, prep timeline, and day-by-day breakdown included.",
+    tags: ["meal-prep", "freezer", "meal-plan", "indian", "protein", "weekly-plan"],
+    content: `
+      <p>This is Week 1 of the <a href="blog-post.html?p=freezer-meal-prep-vegetarian-protein">freezer meal prep series</a>. The idea is simple: one batch cook on Sunday, and you're set for the entire work week. Every meal is mapped out with protein counts. No guessing, no scrambling at 7pm wondering what to eat.</p>
+
+      <p>This week is all Indian. If you grew up eating this food, it'll feel like home. If you didn't, it's a great introduction to the flavors that make vegetarian protein actually exciting.</p>
+
+      <h2>Sunday Batch Cook</h2>
+
+      <h3>Shopping List</h3>
+      <ul>
+        <li>12 oz paneer</li>
+        <li>4 large onions</li>
+        <li>1 head of garlic, 2-inch ginger</li>
+        <li>3 cans (15 oz) chickpeas</li>
+        <li>1 cup cottage cheese</li>
+        <li>2 cups toor dal (or 1 cup toor + 1 cup masoor)</li>
+        <li>3 cans crushed tomatoes</li>
+        <li>1 lb spinach (fresh or frozen)</li>
+        <li>2 cups Greek yogurt</li>
+        <li>Naan ingredients: 3 cups flour, yogurt, yeast</li>
+        <li>12 eggs</li>
+        <li>1 cup mixed vegetables (for egg muffins: bell pepper, onion, spinach)</li>
+        <li>2 cups basmati rice</li>
+        <li>Spices: garam masala, turmeric, cumin seeds, cumin powder, coriander powder, chili powder, mustard seeds</li>
+        <li>Cumin seeds, oil/ghee, cilantro, lemon</li>
+      </ul>
+
+      <h3>What You're Making</h3>
+      <ol>
+        <li><strong><a href="recipe.html?r=protein-chana-masala">Chana masala</a></strong> - Double batch (8 servings). 16g protein each.</li>
+        <li><strong><a href="recipe.html?r=simple-dal">Simple dal</a></strong> - Double batch (8 servings). 10g protein each.</li>
+        <li><strong><a href="recipe.html?r=greek-egg-muffins">Greek egg muffins</a></strong> - 12 muffins. 10g protein each.</li>
+        <li><strong><a href="recipe.html?r=garlic-naan">Naan dough</a></strong> - Triple batch, portioned into 18 balls and frozen.</li>
+        <li><strong><a href="recipe.html?r=protein-jeera-rice">Protein jeera rice</a></strong> - Big pot (6 servings). 8g protein each.</li>
+        <li><strong>Spinach puree</strong> - Blanched, blended, frozen in ice cube trays.</li>
+        <li><strong>Onion-ginger-garlic prep</strong> - Dice remaining onions, make ginger-garlic paste.</li>
+      </ol>
+
+      <h3>Prep Timeline</h3>
+      <ul>
+        <li><strong>0:00</strong> - Dice all 4 onions. Mince garlic and grate ginger, mix into a paste. Start the dal on the stove. Knead naan dough and set aside to rise.</li>
+        <li><strong>0:20</strong> - Start the chana masala (uses half the prepped onions). While it simmers, blanch and blend the spinach, pour into ice cube trays.</li>
+        <li><strong>0:40</strong> - Mix egg muffins and put in the oven. Start the jeera rice.</li>
+        <li><strong>1:00</strong> - Dal is done - portion into containers. Chana masala is simmering. Portion naan dough into 18 balls, lay on baking sheet, put in freezer.</li>
+        <li><strong>1:30</strong> - Egg muffins out of the oven. Chana masala is done - portion into containers (4 for the fridge this week, 4 for the freezer). Rice is done.</li>
+        <li><strong>2:00</strong> - Everything portioned, labeled, and stored. Kitchen cleaned.</li>
+      </ul>
+
+      <h2>The Week: Day by Day</h2>
+
+      <h3>Monday</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> 2 egg muffins (20g) + 1 cup Greek yogurt (17g) = <strong>37g</strong></li>
+        <li><strong>Lunch:</strong> <a href="recipe.html?r=protein-chana-masala">Chana masala</a> from fridge + jeera rice (16g + 8g) = <strong>24g</strong></li>
+        <li><strong>Snack:</strong> <a href="recipe.html?r=spiced-cottage-cheese-bowl">Spiced cottage cheese bowl</a> - mix cottage cheese with cumin, chili, and salt (22g) = <strong>22g</strong></li>
+        <li><strong>Dinner:</strong> <a href="recipe.html?r=palak-paneer">Palak paneer</a> - use frozen spinach cubes, add fresh paneer, 15 min total (20g) + thaw and cook 2 naan (12g) = <strong>32g</strong></li>
+      </ul>
+      <p><strong>Daily total: 115g protein</strong></p>
+
+      <p>Palak paneer is the one thing you cook fresh tonight, but with the spinach cubes and prepped ginger-garlic paste, it's fast. Cube the paneer, thaw the spinach cubes in a pan, add spices, stir in the paneer. Done.</p>
+
+      <h3>Tuesday</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> 2 egg muffins (20g) + glass of milk (8g) = <strong>28g</strong></li>
+        <li><strong>Lunch:</strong> <a href="recipe.html?r=protein-chana-masala">Chana masala</a> + jeera rice (16g + 8g) = <strong>24g</strong></li>
+        <li><strong>Snack:</strong> <a href="recipe.html?r=cardamom-yogurt-parfait">Cardamom yogurt parfait</a> - Greek yogurt with nuts and seeds (28g) = <strong>28g</strong></li>
+        <li><strong>Dinner:</strong> <a href="recipe.html?r=moong-dal-tadka">Moong dal tadka</a> - quick cook with prepped onions and ginger-garlic (18g) + 2 naan from freezer (12g) = <strong>30g</strong></li>
+      </ul>
+      <p><strong>Daily total: 110g protein</strong></p>
+
+      <p>The moong dal cooks fast since it doesn't need soaking. With onions already diced and ginger-garlic paste ready, you're just sautéing and simmering.</p>
+
+      <h3>Wednesday</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> <a href="recipe.html?r=masala-egg-bhurji">Masala egg bhurji</a> - scramble 3 eggs with prepped onions and spices (24g) + 1 naan (6g) = <strong>30g</strong></li>
+        <li><strong>Lunch:</strong> <a href="recipe.html?r=simple-dal">Simple dal</a> from fridge + jeera rice (10g + 8g) = <strong>18g</strong></li>
+        <li><strong>Snack:</strong> 2 egg muffins (20g) = <strong>20g</strong></li>
+        <li><strong>Dinner:</strong> <a href="recipe.html?r=egg-curry">Egg curry</a> - cook the sauce with prepped onions and ginger-garlic paste, boil 4 eggs fresh (26g) + 2 naan (12g) = <strong>38g</strong></li>
+      </ul>
+      <p><strong>Daily total: 106g protein</strong></p>
+
+      <p>Wednesday is egg-heavy. Egg curry sauce comes together fast with the prepped base. Remember: don't freeze this curry with eggs in it. If you make extra sauce, freeze it without the eggs.</p>
+
+      <h3>Thursday</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> 2 egg muffins (20g) + 1 cup Greek yogurt (17g) = <strong>37g</strong></li>
+        <li><strong>Lunch:</strong> <a href="recipe.html?r=protein-chana-masala">Chana masala</a> + jeera rice (16g + 8g) = <strong>24g</strong></li>
+        <li><strong>Snack:</strong> <a href="recipe.html?r=masala-peanut-chaat">Masala peanut chaat</a> - quick toss with peanuts, onion, lime, chili (12g) = <strong>12g</strong></li>
+        <li><strong>Dinner:</strong> <a href="recipe.html?r=simple-dal">Simple dal</a> from fridge (10g) + <a href="recipe.html?r=paneer-tikka-skewers">paneer tikka skewers</a> - marinate and cook fresh paneer (22g) + <a href="recipe.html?r=greek-yogurt-raita">raita</a> (8g) = <strong>40g</strong></li>
+      </ul>
+      <p><strong>Daily total: 113g protein</strong></p>
+
+      <p>Paneer tikka skewers are quick since you're just marinating paneer cubes in yogurt and spices and cooking them in a hot pan. Serve alongside the dal you already have in the fridge.</p>
+
+      <h3>Friday</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> <a href="recipe.html?r=besan-chilla-paneer">Besan chilla with paneer</a> - use remaining paneer (28g) = <strong>28g</strong></li>
+        <li><strong>Lunch:</strong> <a href="recipe.html?r=simple-dal">Simple dal</a> + jeera rice (10g + 8g) + <a href="recipe.html?r=greek-yogurt-raita">raita</a> (8g) = <strong>26g</strong></li>
+        <li><strong>Snack:</strong> 2 egg muffins (20g) = <strong>20g</strong></li>
+        <li><strong>Dinner:</strong> <a href="recipe.html?r=protein-chana-masala">Chana masala</a> from fridge (16g) + 2 naan from freezer (12g) + <a href="recipe.html?r=cilantro-mint-chutney">cilantro-mint chutney</a> (10 min fresh) = <strong>28g</strong></li>
+      </ul>
+      <p><strong>Daily total: 102g protein</strong></p>
+
+      <h2>The Numbers</h2>
+      <p>Across the five days, you're averaging 109g protein daily from food alone. Add a glass of milk here, a handful of nuts there, and you're comfortably at 120-130g. The key is that most of this protein came from Sunday's batch cook. The only fresh cooking during the week was palak paneer, moong dal, egg curry, egg bhurji, paneer tikka, and besan chilla - all fast recipes that take advantage of the prepped ingredients.</p>
+
+      <h2>What Goes in the Freezer for Later</h2>
+      <p>From this Sunday session, you should also have stashed away:</p>
+      <ul>
+        <li>4 portions of chana masala</li>
+        <li>4 portions of simple dal</li>
+        <li>10-12 naan dough balls</li>
+        <li>Frozen spinach cubes</li>
+      </ul>
+      <p>That's your safety net for the following weeks, or the foundation for <a href="blog-post.html?p=weekly-meal-plan-mixed-cuisine-freezer-prep">Week 2</a>.</p>
+    `
+  },
+  {
+    slug: "weekly-meal-plan-mixed-cuisine-freezer-prep",
+    title: "Week 2 Meal Plan: Mixed Cuisine Freezer Prep",
+    date: "2026-09-21",
+    excerpt: "Indian, Mexican, Mediterranean, and Italian recipes in one week. A new batch cook session, plus leftovers from Week 1's freezer stash. Shopping list, timeline, and daily meals included.",
+    tags: ["meal-prep", "freezer", "meal-plan", "protein", "weekly-plan", "mixed-cuisine"],
+    content: `
+      <p>This is Week 2 of the <a href="blog-post.html?p=freezer-meal-prep-vegetarian-protein">freezer meal prep series</a>. If you followed <a href="blog-post.html?p=weekly-meal-plan-indian-freezer-prep">Week 1</a>, you've already got naan dough balls, chana masala portions, and dal in the freezer. This week we branch out - Indian, Mexican, Mediterranean, and Italian all make appearances. Different flavors every night, same system.</p>
+
+      <h2>Sunday Batch Cook</h2>
+
+      <h3>Shopping List</h3>
+      <ul>
+        <li>1 block extra-firm tofu (14 oz)</li>
+        <li>3 large onions</li>
+        <li>1 head garlic, 1-inch ginger</li>
+        <li>2 cans (15 oz) kidney beans</li>
+        <li>2 cans (15 oz) black beans</li>
+        <li>2 cans (15 oz) chickpeas</li>
+        <li>1 can (15 oz) cannellini beans</li>
+        <li>3 cans crushed tomatoes</li>
+        <li>1 bunch kale</li>
+        <li>8 eggs</li>
+        <li>1 cup Greek yogurt</li>
+        <li>Tortillas (for enchiladas)</li>
+        <li>Shredded cheese (for enchiladas)</li>
+        <li>Halloumi (1 block)</li>
+        <li>1 cup cooked lentils (or 1/2 cup dry)</li>
+        <li>Quinoa (1 cup dry)</li>
+        <li>Vegetables: bell peppers, zucchini, cherry tomatoes, cucumber, carrots</li>
+        <li>Fresh herbs: cilantro, parsley, mint</li>
+        <li>Spices: cumin, coriander, chili powder, smoked paprika, oregano, Italian seasoning</li>
+        <li>Tahini, lemons</li>
+      </ul>
+
+      <h3>What You're Making</h3>
+      <ol>
+        <li><strong><a href="recipe.html?r=rajma-masala">Rajma masala</a></strong> - Double batch (8 servings). 22g protein each.</li>
+        <li><strong><a href="recipe.html?r=black-bean-enchiladas">Black bean enchiladas</a></strong> - Full recipe (6 servings) + one extra tray for the freezer. 24g protein each.</li>
+        <li><strong><a href="recipe.html?r=high-protein-dal-soup">Dal soup</a></strong> - Double batch (8 servings). 18g protein each.</li>
+        <li><strong><a href="recipe.html?r=greek-egg-muffins">Greek egg muffins</a></strong> - 8 muffins (using remaining eggs). 10g protein each.</li>
+        <li><strong>Quinoa</strong> - Cook 1 cup dry (makes about 3 cups). For grain bowls later in the week.</li>
+        <li><strong>Prep vegetables</strong> - Dice bell peppers, slice cucumber, shred carrots. Store in containers for quick assembly meals.</li>
+      </ol>
+
+      <h3>Prep Timeline</h3>
+      <ul>
+        <li><strong>0:00</strong> - Dice all onions, mince garlic, grate ginger. Start rajma masala (simmers longest). Start quinoa on a back burner. Prep enchilada filling.</li>
+        <li><strong>0:30</strong> - Assemble enchiladas in two baking dishes and put in oven. Start dal soup. Dice vegetables for the week and store.</li>
+        <li><strong>1:00</strong> - Mix egg muffins and bake (swap with enchiladas or use a second rack). Rajma is simmering, dal soup is simmering. Quinoa is done - cool and store.</li>
+        <li><strong>1:30</strong> - Enchiladas out of the oven. Wrap the second tray in foil for the freezer. Egg muffins done. Dal soup done.</li>
+        <li><strong>2:00</strong> - Portion rajma (4 fridge, 4 freezer). Portion dal soup (4 fridge, 4 freezer). Label everything, clean up.</li>
+      </ul>
+
+      <h2>The Week: Day by Day</h2>
+
+      <h3>Monday</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> 2 egg muffins (20g) + Greek yogurt (17g) = <strong>37g</strong></li>
+        <li><strong>Lunch:</strong> <a href="recipe.html?r=rajma-masala">Rajma masala</a> from fridge + naan from Week 1 freezer stash (22g + 6g) = <strong>28g</strong></li>
+        <li><strong>Snack:</strong> <a href="recipe.html?r=high-protein-hummus">Hummus</a> with sliced bell peppers and carrots (8g) = <strong>8g</strong></li>
+        <li><strong>Dinner:</strong> <a href="recipe.html?r=black-bean-enchiladas">Black bean enchiladas</a> from fridge (24g) + side salad = <strong>24g</strong></li>
+      </ul>
+      <p><strong>Daily total: 97g protein</strong></p>
+
+      <p>Easy start to the week. Everything is grab-and-reheat. The naan dough balls from last week's session thaw in 30 minutes on the counter.</p>
+
+      <h3>Tuesday</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> 2 egg muffins (20g) + glass of milk (8g) = <strong>28g</strong></li>
+        <li><strong>Lunch:</strong> <a href="recipe.html?r=high-protein-dal-soup">Dal soup</a> from fridge (18g) + 1 naan from freezer (6g) = <strong>24g</strong></li>
+        <li><strong>Snack:</strong> <a href="recipe.html?r=baked-falafel-bites">Baked falafel bites</a> - make fresh, they're fast (14g) + <a href="recipe.html?r=cilantro-mint-chutney">cilantro-mint chutney</a> = <strong>14g</strong></li>
+        <li><strong>Dinner:</strong> <a href="recipe.html?r=crispy-tofu-stir-fry">Crispy tofu stir fry</a> - press tofu, cube, and stir fry with prepped vegetables (28g) + rice = <strong>28g</strong></li>
+      </ul>
+      <p><strong>Daily total: 94g protein</strong></p>
+
+      <p>The tofu stir fry is fast because you prepped the vegetables on Sunday. Just press and cube the tofu, then everything goes in the wok. Make extra falafel bites if you want - they're a great snack to have around.</p>
+
+      <h3>Wednesday</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> 2 egg muffins (20g) + Greek yogurt (17g) = <strong>37g</strong></li>
+        <li><strong>Lunch:</strong> <a href="recipe.html?r=black-bean-enchiladas">Black bean enchiladas</a> from fridge (24g) = <strong>24g</strong></li>
+        <li><strong>Snack:</strong> <a href="recipe.html?r=masala-peanut-chaat">Masala peanut chaat</a> (12g) = <strong>12g</strong></li>
+        <li><strong>Dinner:</strong> <a href="recipe.html?r=halloumi-chickpea-grain-bowl">Halloumi chickpea grain bowl</a> - grill halloumi fresh, use prepped quinoa and chickpeas, prepped vegetables (32g) = <strong>32g</strong></li>
+      </ul>
+      <p><strong>Daily total: 105g protein</strong></p>
+
+      <p>The grain bowl comes together fast with quinoa already cooked and vegetables already chopped. Grill the halloumi, warm the chickpeas, assemble. The halloumi needs to be cooked fresh for that crispy exterior.</p>
+
+      <h3>Thursday</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> 2 egg muffins (20g) + milk (8g) = <strong>28g</strong></li>
+        <li><strong>Lunch:</strong> <a href="recipe.html?r=rajma-masala">Rajma masala</a> from fridge + jeera rice or plain rice (22g + 8g) = <strong>30g</strong></li>
+        <li><strong>Snack:</strong> Leftover falafel bites from Tuesday (14g) = <strong>14g</strong></li>
+        <li><strong>Dinner:</strong> <a href="recipe.html?r=pasta-e-fagioli">Pasta e fagioli</a> - quick Italian bean and pasta soup using cannellini beans (22g). Uses similar onion-garlic base you already know. = <strong>22g</strong></li>
+      </ul>
+      <p><strong>Daily total: 94g protein</strong></p>
+
+      <p>Pasta e fagioli is a one-pot recipe that comes together fast. If you make a double batch, the extra freezes well for future weeks.</p>
+
+      <h3>Friday</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> <a href="recipe.html?r=shakshuka-with-feta">Shakshuka with feta and chickpeas</a> - quick one-pan breakfast (28g) = <strong>28g</strong></li>
+        <li><strong>Lunch:</strong> <a href="recipe.html?r=high-protein-dal-soup">Dal soup</a> from fridge (18g) + naan from freezer (6g) = <strong>24g</strong></li>
+        <li><strong>Snack:</strong> <a href="recipe.html?r=spiced-cottage-cheese-bowl">Spiced cottage cheese bowl</a> (22g) = <strong>22g</strong></li>
+        <li><strong>Dinner:</strong> Thaw <a href="recipe.html?r=protein-chana-masala">chana masala</a> from Week 1 freezer stash (16g) + 2 naan from freezer (12g) + <a href="recipe.html?r=greek-yogurt-raita">raita</a> (8g) = <strong>36g</strong></li>
+      </ul>
+      <p><strong>Daily total: 110g protein</strong></p>
+
+      <p>Friday pulls from both this week's batch cook and last week's freezer stash. That's the system working as intended - your freezer gets deeper over time, giving you more options with less effort.</p>
+
+      <h2>The Numbers</h2>
+      <p>Weekly average: 100g protein per day, and that's before adding any incidental protein from milk, nuts, or extra snacks. With simple additions you're easily at 120g+. The big difference from Week 1 is variety - five different cuisines across the week, all built from the same prep system.</p>
+
+      <h2>What's in Your Freezer Now</h2>
+      <p>After two weeks of this system, your freezer should have:</p>
+      <ul>
+        <li>4 portions rajma masala</li>
+        <li>4 portions dal soup</li>
+        <li>1 tray black bean enchiladas (6 servings)</li>
+        <li>Remaining chana masala and simple dal from Week 1</li>
+        <li>Naan dough balls</li>
+        <li>Frozen spinach cubes</li>
+      </ul>
+
+      <p>That's 20+ meals in the freezer. At this point you could skip a batch cook entirely and still eat well for a week. That's the whole point - the system builds on itself. Each week you cook a bit, eat a lot, and your freezer safety net grows deeper.</p>
+
+      <p>Read the <a href="blog-post.html?p=freezer-meal-prep-vegetarian-protein">fundamentals post</a> if you haven't already, and start with <a href="blog-post.html?p=weekly-meal-plan-indian-freezer-prep">Week 1</a> if this is your first time.</p>
+    `
   }
 ];
