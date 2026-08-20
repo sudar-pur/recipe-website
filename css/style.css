@@ -1016,6 +1016,41 @@ a.pairing-card:hover .pairing-card-image img {
   font-weight: 500;
 }
 
+/* Related Blog Posts */
+.related-blog-posts {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-border-light);
+}
+
+.related-blog-posts h3 {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--color-text);
+}
+
+.related-blog-posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.related-blog-posts li a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.related-blog-posts li a:hover {
+  text-decoration: underline;
+}
+
 /* Print Button */
 .print-btn {
   display: inline-flex;
@@ -1677,7 +1712,7 @@ a.pairing-card:hover .pairing-card-image img {
 /* ============ PRINT STYLES ============ */
 @media print {
   .nav, .footer, .jump-to-recipe, .recipe-story,
-  .print-btn, .protein-tips, .substitution-tips, .recipe-pairings, .recipe-tags,
+  .print-btn, .protein-tips, .substitution-tips, .recipe-pairings, .recipe-tags, .related-blog-posts,
   .serving-scaler, .recipe-breadcrumb, .nutrition-personalize-row, .modal-overlay,
   .protein-filters, .search-page .search-input-wrap {
     display: none !important;

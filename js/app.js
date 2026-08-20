@@ -583,6 +583,8 @@ function initRecipePage() {
       <div class="recipe-tags">
         ${recipe.tags.map(tag => `<span class="recipe-tag">#${tag}</span>`).join('')}
       </div>
+
+      ${renderRelatedBlogPosts(recipe)}
     </div>
   `;
 
@@ -685,6 +687,26 @@ function renderInstructions(instructions, isMetric) {
     const text = isMetric ? convertInstructionTemps(step) : step;
     return `<li>${text}</li>`;
   }).join('');
+}
+
+// ============ RELATED BLOG POSTS ============
+
+function renderRelatedBlogPosts(recipe) {
+  if (typeof blogPosts === 'undefined') return '';
+  var linkPattern = 'recipe.html?r=' + recipe.slug;
+  var related = blogPosts.filter(function(post) {
+    return post.content.indexOf(linkPattern) !== -1;
+  });
+  if (related.length === 0) return '';
+
+  return '<div class="related-blog-posts">' +
+    '<h3>Featured In</h3>' +
+    '<ul>' +
+    related.map(function(post) {
+      return '<li><a href="blog-post.html?p=' + post.slug + '">' + post.title + '</a></li>';
+    }).join('') +
+    '</ul>' +
+  '</div>';
 }
 
 // ============ NUTRITION PERSONALIZATION ============
