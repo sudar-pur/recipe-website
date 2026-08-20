@@ -726,6 +726,32 @@ h1, h2, h3, h4, h5 {
   font-size: 15px;
 }
 
+/* Unit Toggle Button */
+.unit-toggle-btn {
+  padding: 6px 16px;
+  border: 2px solid var(--color-border);
+  background: white;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-light);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.unit-toggle-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.unit-toggle-btn.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+}
+
 /* Ingredients */
 .ingredients-section {
   margin-bottom: 40px;

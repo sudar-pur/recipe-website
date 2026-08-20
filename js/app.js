@@ -23,6 +23,44 @@ function formatAmount(amount, scale) {
   return fractionize(scaled);
 }
 
+// ============ METRIC CONVERSION ============
+
+function getUnitPreference() {
+  return localStorage.getItem('units') || 'imperial';
+}
+
+function setUnitPreference(pref) {
+  localStorage.setItem('units', pref);
+}
+
+function convertToMetric(amount, unit) {
+  var unitLower = unit.toLowerCase();
+  var conversions = {
+    'oz': { factor: 28, unit: 'g' },
+    'lb': { factor: 454, unit: 'g' },
+    'lbs': { factor: 454, unit: 'g' },
+    'cup': { factor: 240, unit: 'ml' },
+    'cups': { factor: 240, unit: 'ml' },
+    'tbsp': { factor: 15, unit: 'ml' },
+    'tsp': { factor: 5, unit: 'ml' }
+  };
+  var conv = conversions[unitLower];
+  if (!conv) return { amount: amount, unit: unit };
+  var converted = Math.round(amount * conv.factor);
+  return { amount: converted, unit: conv.unit };
+}
+
+function fahrenheitToCelsius(f) {
+  return Math.round((f - 32) * 5 / 9);
+}
+
+function convertInstructionTemps(text) {
+  return text.replace(/(\d+)\s*°F/g, function(match, temp) {
+    var c = fahrenheitToCelsius(parseInt(temp));
+    return c + '°C';
+  });
+}
+
 function getCategoryColor(category) {
   const colors = {
     dinner: 'var(--color-dinner)',
@@ -308,7 +346,14 @@ function injectRecipeSEO(recipe) {
     'recipeYield': recipe.servings + ' servings',
     'recipeCategory': capitalize(recipe.category),
     'recipeCuisine': recipe.cuisine,
-    'keywords': recipe.tags ? recipe.tags.join(', ') : '',
+    'keywords': (function() {
+      var kw = recipe.tags ? recipe.tags.join(', ') : '';
+      var cuisineGroup = getCuisineGroup(recipe.cuisine);
+      if (cuisineGroup === 'Indian') {
+        kw += ', Indian recipe, vegetarian Indian cooking, high protein Indian food, protein rich Indian recipe';
+      }
+      return kw;
+    })(),
     'nutrition': {
       '@type': 'NutritionInformation',
       'calories': recipe.caloriesPerServing + ' calories',
@@ -461,6 +506,9 @@ function initRecipePage() {
           <option value="8" ${recipe.servings === 8 ? 'selected' : ''}>8</option>
           <option value="12" ${recipe.servings === 12 ? 'selected' : ''}>12</option>
         </select>
+        <button type="button" class="unit-toggle-btn" id="unit-toggle" title="Toggle Imperial/Metric">
+          ${getUnitPreference() === 'metric' ? 'Metric' : 'Imperial'}
+        </button>
         <span class="protein-per-serving" id="protein-display">${recipe.proteinPerServing}g protein per serving</span>
       </div>
 
@@ -471,14 +519,14 @@ function initRecipePage() {
       <div class="ingredients-section">
         <h3>Ingredients</h3>
         <ul class="ingredients-list" id="ingredients-list">
-          ${renderIngredients(recipe.ingredients, 1, recipe.servings)}
+          ${renderIngredients(recipe.ingredients, 1, recipe.servings, getUnitPreference() === 'metric')}
         </ul>
       </div>
 
       <div class="instructions-section">
         <h3>Instructions</h3>
-        <ol class="instructions-list">
-          ${recipe.instructions.map(step => `<li>${step}</li>`).join('')}
+        <ol class="instructions-list" id="instructions-list">
+          ${renderInstructions(recipe.instructions, getUnitPreference() === 'metric')}
         </ol>
       </div>
 
@@ -544,9 +592,36 @@ function initRecipePage() {
     servingsSelect.addEventListener('change', () => {
       const newServings = parseInt(servingsSelect.value);
       const scale = newServings / recipe.servings;
+      const isMetric = getUnitPreference() === 'metric';
       const ingredientsList = document.getElementById('ingredients-list');
-      ingredientsList.innerHTML = renderIngredients(recipe.ingredients, scale, recipe.servings);
+      ingredientsList.innerHTML = renderIngredients(recipe.ingredients, scale, recipe.servings, isMetric);
     });
+  }
+
+  // Set up unit toggle
+  const unitToggle = document.getElementById('unit-toggle');
+  if (unitToggle) {
+    unitToggle.addEventListener('click', () => {
+      const current = getUnitPreference();
+      const newPref = current === 'imperial' ? 'metric' : 'imperial';
+      setUnitPreference(newPref);
+      const isMetric = newPref === 'metric';
+      unitToggle.textContent = isMetric ? 'Metric' : 'Imperial';
+      unitToggle.classList.toggle('active', isMetric);
+
+      const newServings = parseInt(servingsSelect ? servingsSelect.value : recipe.servings);
+      const scale = newServings / recipe.servings;
+      const ingredientsList = document.getElementById('ingredients-list');
+      ingredientsList.innerHTML = renderIngredients(recipe.ingredients, scale, recipe.servings, isMetric);
+      const instructionsList = document.getElementById('instructions-list');
+      if (instructionsList) {
+        instructionsList.innerHTML = renderInstructions(recipe.instructions, isMetric);
+      }
+    });
+    // Set initial active state
+    if (getUnitPreference() === 'metric') {
+      unitToggle.classList.add('active');
+    }
   }
 
   // Set up nutrition personalization
@@ -574,10 +649,20 @@ function initRecipePage() {
   }
 }
 
-function renderIngredients(ingredients, scale, servings) {
+function renderIngredients(ingredients, scale, servings, isMetric) {
   return ingredients.map(ing => {
-    const amount = ing.amount ? formatAmount(ing.amount, scale) : '';
-    const unit = ing.unit || '';
+    let amount = ing.amount ? ing.amount * scale : 0;
+    let unit = ing.unit || '';
+    let displayAmount = '';
+
+    if (amount && isMetric && unit) {
+      var converted = convertToMetric(amount, unit);
+      displayAmount = converted.amount.toString();
+      unit = converted.unit;
+    } else if (amount) {
+      displayAmount = formatAmount(ing.amount, scale);
+    }
+
     const note = ing.note ? `<span class="ingredient-note">(${ing.note})</span>` : '';
     let proteinBadge = '';
     if (ing.protein && servings) {
@@ -588,10 +673,17 @@ function renderIngredients(ingredients, scale, servings) {
     }
     return `<li>
       <span>
-        <span class="ingredient-amount">${amount} ${unit}</span>
+        <span class="ingredient-amount">${displayAmount} ${unit}</span>
         ${ing.item} ${note} ${proteinBadge}
       </span>
     </li>`;
+  }).join('');
+}
+
+function renderInstructions(instructions, isMetric) {
+  return instructions.map(step => {
+    const text = isMetric ? convertInstructionTemps(step) : step;
+    return `<li>${text}</li>`;
   }).join('');
 }
 
